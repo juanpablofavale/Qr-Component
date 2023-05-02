@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Outfit";
 }
 
 .attribution {
@@ -16,17 +17,16 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
     background-color: #d2deec;
 }
 
 main{
+    min-height: 100vh;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 .card{
@@ -53,11 +53,13 @@ main{
 
 .body h1{
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .body p{
     margin: 20px 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 400;
 }
